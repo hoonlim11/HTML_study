@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOON's HTML school</title>
+</head>
+
+
+<body>
+    <!--table 연습포함-->
+    <!--table border = "1" 테이블 줄을 만들어줌-->
+    <!--&lt;html&gt; , 왼쪽 꺽쇠와 오른쪽 꺽쇠를 만들어주는 역할임.-->
+    <!--특수문자표들이 있음.-->
+    <P>
+    <H2>
+        <li>반드시 직접 써보면 좋은 핵심 태그</li>
+    </H2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>태그</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>문서 구조</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_html.asp" target="_blank">&lt;html&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_head.asp" target="_blank">&lt;head&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_title.asp" target="_blank">&lt;title&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_body.asp" target="_blank">&lt;body&gt;</a>
+                </td>
+                <td>HTML 문서의 기본 골격을 정의</td>
+            </tr>
+            <tr>
+                <td>텍스트</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">&lt;h1&gt;~&lt;h6&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">&lt;p&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_br.asp" target="_blank">&lt;br&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_hr.asp" target="_blank">&lt;hr&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_strong.asp" target="_blank">&lt;strong&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_em.asp" target="_blank">&lt;em&gt;</a>
+                </td>
+                <td>제목, 단락, 줄바꿈, 수평선, 강조 텍스트</td>
+            </tr>
+            <tr>
+                <td>링크 & 이미지</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">&lt;a&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">&lt;img&gt;</a>
+                </td>
+                <td>하이퍼링크, 이미지 삽입</td>
+            </tr>
+            <tr>
+                <td>목록</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_ul.asp" target="_blank">&lt;ul&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_ol.asp" target="_blank">&lt;ol&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_li.asp" target="_blank">&lt;li&gt;</a>
+                </td>
+                <td>순서 있는/없는 목록 구성</td>
+            </tr>
+            <tr>
+                <td>표</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">&lt;table&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_tr.asp" target="_blank">&lt;tr&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_td.asp" target="_blank">&lt;td&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_th.asp" target="_blank">&lt;th&gt;</a>
+                </td>
+                <td>표 구성, 행과 셀 정의</td>
+            </tr>
+            <tr>
+                <td>입력</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">&lt;input&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_label.asp" target="_blank">&lt;label&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_textarea.asp" target="_blank">&lt;textarea&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">&lt;select&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_option.asp" target="_blank">&lt;option&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_botton.asp" target="_blank">&lt;button&gt;</a>
+                </td>
+                <td>사용자와의 상호작용 요소 (폼 입력)</td>
+            </tr>
+            <tr>
+                <td>시맨틱 구조</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_header.asp" target="_blank">&lt;header&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">&lt;footer&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_nav.asp" target="_blank">&lt;nav&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_main.asp" target="_blank">&lt;main&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_select.asp" target="_blank">&lt;section&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_article.asp" target="_blank">&lt;article&gt;</a>
+                </td>
+                <td>의미론적 웹 페이지 영역 구분</td>
+            </tr>
+            <tr>
+                <td>기타</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_abbr.asp" target="_blank">&lt;abbr&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_address.asp" target="_blank">&lt;address&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_mark.asp" target="_blank">&lt;mark&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_code.asp" target="_blank">&lt;code&gt;</a>
+                    <a href="https://www.w3schools.com/tags/tag_pre.asp" target="_blank">&lt;pre&gt;</a>
+                </td>
+                <td>특수한 목적의 표현 (약어, 주소, 강조 등)</td>
+            </tr>
+        </tbody>
+    </table>
+    </P>
+    <p>
+    <H2>
+        <li>나중에 필요할 때 찾아보면 되는 태그</li>
+    </H2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>태그</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>미디어 처리</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_canvas.asp" target="_blank">&lt;canvas&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_video.asp" target="_blank">&lt;video&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_audio.asp" target="_blank">&lt;audio&gt;</a>
+                </td>
+                <td>그래픽, 동영상, 오디오 등 멀티미디어 콘텐츠 처리</td>
+            </tr>
+            <tr>
+                <td>접힘/펼침 인터랙션</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_details.asp" target="_blank">&lt;details&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_summary.asp" target="_blank">&lt;summary&gt;</a>
+                </td>
+                <td>클릭 시 내용을 접었다 펼칠 수 있는 UI 구성</td>
+            </tr>
+            <tr>
+                <td>특수 상황</td>
+                <td>
+                    <a href="https://www.w3schools.com/tags/tag_iframe.asp" target="_blank">&lt;iframe&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_map.asp" target="_blank">&lt;map&gt;</a>,
+                    <a href="https://www.w3schools.com/tags/tag_progress.asp" target="_blank">&lt;progress&gt;</a>
+                </td>
+                <td>외부 페이지 삽입, 이미지 맵, 진행률 등 특수 기능</td>
+            </tr>
+        </tbody>
+    </table>
+    </P>
+
+    <P>
+    <H2>
+        <li>HTML 문서 기본 구조 태그 설명 표 (링크 포함)</li>
+    </H2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>태그</th>
+                <th>설명</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_doctype.asp" target="_blank">&lt;!DOCTYPE html&gt;</a>
+                </td>
+                <td>HTML5 문서임을 브라우저에 선언함 (브라우저가 HTML5로 해석하도록 유도)</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_html.asp" target="_blank">&lt;html lang="ko"&gt;</a>
+                </td>
+                <td>HTML 문서의 최상위 루트 요소이며, lang 속성으로 문서의 기본 언어를 지정 (예: 한글이면 ko)</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_head.asp" target="_blank">&lt;head&gt;</a></td>
+                <td>문서의 정보(meta 데이터, title, 외부 파일 링크 등)를 담는 영역으로 화면에는 보이지 않음</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_meta.asp" target="_blank">&lt;meta
+                        charset="UTF-8"&gt;</a></td>
+                <td>문자의 인코딩을 UTF-8로 설정하여 한글, 특수문자 등이 깨지지 않도록 함</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_meta.asp" target="_blank">&lt;meta
+                        name="viewport"&gt;</a></td>
+                <td>모바일/태블릿 등 다양한 화면 크기에 맞춰 콘텐츠가 잘 보이도록 설정 (반응형 웹의 필수 요소)</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_title.asp" target="_blank">&lt;title&gt;</a></td>
+                <td>브라우저 탭에 표시될 문서 제목이며, 검색엔진에서의 표시 제목에도 사용됨</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/tags/tag_body.asp" target="_blank">&lt;body&gt;</a></td>
+                <td>화면에 실제로 표시되는 본문 내용을 작성하는 영역 (텍스트, 이미지, 버튼 등 포함)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </P>
+
+    <P>
+        <hr>
+    <H2>
+        <li>연습장</li>
+    </H2>
+    <hr>
+    <!--<abbr tag>-->
+    <ol>
+        <li>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</li>
+        <li>The <abbr title="Adeno associated virus">AAV</abbr> was discovered in 1950s.</li>
+    </ol>
+    <!--<address> tag-->
+    <address>
+        Tag: Address 연습<br>
+        Written by <a href="mailto:hoonlim@yonsei.ac.kr">Hoonlim</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <!--pre -> code를 그대로 보여주고 싶을 때 <Pre>-->
+    <pre>
+        &lt;html&gt;
+          &lt;head&gt;&lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello&lt;/h1&gt;
+         &lt;/body&gt;
+        &lt;/html&gt;
+</pre>
+
+
+    <h1>The Main Languages of the Web</h1>
+
+    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and
+        consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+    <hr>
+
+    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS
+        saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+    <hr>
+
+    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute
+        values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+    <p>You <em>have</em> to hurry up!</p>
+
+    <p>We <em>cannot</em> live like this.</p>
+
+
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+    </nav>
+
+    <label for="w3review">Review of W3Schools:</label>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+
+    <br><br><br><label for="cars">Choose a car:</label>
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <hr>
+
+    <!--추가 연습 checkbox_할 수 있는게 없음-->
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+    <label for="vehicle1">I have a car</label><br>
+    <!--그냥 자동완성 그대로 해봄-->
+    <label for="vehicle2">I have a:</label><br>
+    <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">I have a car</label><br>
+    <input type="radio" id="vehicle3" name="vehicle2" value="Boat">
+    <label for="vehicle3">I have a boat</label><br>
+    <input type="radio" id="vehicle4" name="vehicle2" value="Plane">
+    <label for="vehicle4">I have a plane</label><br>
+
+    <hr>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <label for="email">Email address:</label>
+        <input type="email">
+        <label for="password">Password:</label>
+        <input type="password" name="User_password"><br><br>
+        <input type="submit" value="Login"><br>
+
+    </form>
+
+
+    <label for="cars">Choose a car:</label>
+
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    </P>
+
+</body>
+
+</html>
